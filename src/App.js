@@ -9,19 +9,19 @@ import {
 import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
+import MainPage from "./Pages/MainPage";
 
 function App() {
   return (
     <Router>
       <Header />
-      {/* <main> */}
-      {/* <Switch>
+      <main>
+        <Switch>
           <Route path="/" exact>
-            <Users />
+            <MainPage />
           </Route>
-          <Redirect to="/" />
-        </Switch> */}
-      {/* </main> */}
+        </Switch>
+      </main>
       {/* <Footer /> */}
     </Router>
   );
